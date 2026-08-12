@@ -9,13 +9,19 @@
 </head>
 <body>
     <main>
-        <h1>Generate a <span>random password</span></h1>
-        <p>Never use an insecure password again.</p>
-        <button>Generate passwords</button>
-        <hr>
+        <div id="container" class="Container">
+            <h1>Generate a <span>random password</span></h1>
+            <p>Never use an insecure password again.</p>
+            <label for="passwordSize">Password size</label>
+            <input type="range" name="passwordSize" id="passwordSize" min="8" max="20">
+            <button id="button">Generate passwords</button>
+            <hr>
+        </div>
     </main>
     <footer>
         <p>Coded by <a href="http://indavid04.github.io" target="_blank" rel="noopener noreferrer">David</a> from a <a href="http://scrimba.com" target="_blank" rel="noopener noreferrer">Scrimba Course</a></p>
     </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
