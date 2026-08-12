@@ -1,0 +1,86 @@
+    @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+:root {
+    --white: #FFFFFF;
+    --light-green: #55F991;
+    --medium-green: #4ADF86;
+    --green: #10B981;
+    --black: #1F2937;
+    --grey: #273549;
+    --light-grey: #D5D4D8;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: "Karla", sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h1 span {
+    display: block;
+    color: var(--medium-green);
+}
+
+main p {
+    font-size: 20px;
+    color: var(--light-grey);
+}
+
+button {
+    padding: 9px 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--green);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover, button:focus {
+    background-color: var(--medium-green);
+}
+
+button:active {
+    background-color: var(--white);
+    color: var(--green);
+}
+
+a {
+    color: var(--green);
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: var(--medium-green);
+}
+
+a:active {
+    color: var(--light-green);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+    min-height: 88vh;
+}
+
+hr {
+    margin-top: 20px;
+    border: none;
+    width: 100%;
+    height: 1px;
+    background-color: var(--light-grey);
+    max-width: 353px;
+}
+
+footer p {
+    text-align: center;
+}
+
